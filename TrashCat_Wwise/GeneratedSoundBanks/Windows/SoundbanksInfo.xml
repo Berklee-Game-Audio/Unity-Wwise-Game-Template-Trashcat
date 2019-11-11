@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="134">
+	<RootPaths>
+		<ProjectRoot>/Users/tommaso/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/Berklee/Berklee Undergrad/Sem 8/VGS Assistant Job/Templates_in_the_making/Unity-Wwise-Game-Template-Trashcat/TrashCat_Wwise/</ProjectRoot>
+		<SourceFilesRoot>/Users/tommaso/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/Berklee/Berklee Undergrad/Sem 8/VGS Assistant Job/Templates_in_the_making/Unity-Wwise-Game-Template-Trashcat/TrashCat_Wwise/.cache/Windows/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/tommaso/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/Berklee/Berklee Undergrad/Sem 8/VGS Assistant Job/Templates_in_the_making/Unity-Wwise-Game-Template-Trashcat/TrashCat_Wwise/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>/Users/tommaso/Library/Application Support/Wwise2019/Bottles/wwise/dosdevices/y:/Documents/Berklee/Berklee Undergrad/Sem 8/VGS Assistant Job/Templates_in_the_making/Unity-Wwise-Game-Template-Trashcat/TrashCat_Wwise/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="2286824557" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\TrachCat_SoundBank</ObjectPath>
+			<ShortName>TrachCat_SoundBank</ShortName>
+			<Path>TrachCat_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="452534255" Name="snd_action_crash" ObjectPath="\Events\Default Work Unit\snd_action_crash"/>
+				<Event Id="3003982038" Name="snd_action_jump" ObjectPath="\Events\Default Work Unit\snd_action_jump"/>
+				<Event Id="3147710037" Name="snd_action_slide" ObjectPath="\Events\Default Work Unit\snd_action_slide"/>
+				<Event Id="3098727147" Name="snd_action_slide_left" ObjectPath="\Events\Default Work Unit\snd_action_slide_left"/>
+				<Event Id="2411298406" Name="snd_action_slide_right" ObjectPath="\Events\Default Work Unit\snd_action_slide_right"/>
+				<Event Id="1653367152" Name="snd_button_leaderboards" ObjectPath="\Events\Default Work Unit\snd_button_leaderboards"/>
+				<Event Id="2024283294" Name="snd_button_mission" ObjectPath="\Events\Default Work Unit\snd_button_mission"/>
+				<Event Id="1578232995" Name="snd_button_run" ObjectPath="\Events\Default Work Unit\snd_button_run"/>
+				<Event Id="1493630459" Name="snd_button_settings" ObjectPath="\Events\Default Work Unit\snd_button_settings"/>
+				<Event Id="3443917247" Name="snd_button_store" ObjectPath="\Events\Default Work Unit\snd_button_store"/>
+				<Event Id="3519106318" Name="snd_countdown_1" ObjectPath="\Events\Default Work Unit\snd_countdown_1"/>
+				<Event Id="3519106317" Name="snd_countdown_2" ObjectPath="\Events\Default Work Unit\snd_countdown_2"/>
+				<Event Id="3519106316" Name="snd_countdown_3" ObjectPath="\Events\Default Work Unit\snd_countdown_3"/>
+				<Event Id="3519106315" Name="snd_countdown_4" ObjectPath="\Events\Default Work Unit\snd_countdown_4"/>
+				<Event Id="3519106314" Name="snd_countdown_5" ObjectPath="\Events\Default Work Unit\snd_countdown_5"/>
+				<Event Id="2337063399" Name="snd_countdown_go" ObjectPath="\Events\Default Work Unit\snd_countdown_go"/>
+				<Event Id="732372439" Name="snd_countdown_start" ObjectPath="\Events\Default Work Unit\snd_countdown_start"/>
+				<Event Id="1361665793" Name="snd_game_loaded" ObjectPath="\Events\Default Work Unit\snd_game_loaded"/>
+				<Event Id="395737464" Name="snd_game_over" ObjectPath="\Events\Default Work Unit\snd_game_over"/>
+				<Event Id="3711655736" Name="snd_main_menu" ObjectPath="\Events\Default Work Unit\snd_main_menu"/>
+				<Event Id="2162734957" Name="snd_reward_fish" ObjectPath="\Events\Default Work Unit\snd_reward_fish"/>
+				<Event Id="1226999857" Name="snd_reward_magnet" ObjectPath="\Events\Default Work Unit\snd_reward_magnet"/>
+				<Event Id="2752070919" Name="snd_reward_star" ObjectPath="\Events\Default Work Unit\snd_reward_star"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="42887247" Language="SFX">
+					<ShortName>snd_button_store.wav</ShortName>
+					<Path>SFX/snd_button_store_D79FB2B7.wem</Path>
+				</File>
+				<File Id="51603243" Language="SFX">
+					<ShortName>snd_reward_star.wav</ShortName>
+					<Path>SFX/snd_reward_star_D79FB2B7.wem</Path>
+				</File>
+				<File Id="128295666" Language="SFX">
+					<ShortName>snd_button_leaderboards.wav</ShortName>
+					<Path>SFX/snd_button_leaderboards_D79FB2B7.wem</Path>
+				</File>
+				<File Id="167186016" Language="SFX">
+					<ShortName>snd_action_slide.wav</ShortName>
+					<Path>SFX/snd_action_slide_D79FB2B7.wem</Path>
+				</File>
+				<File Id="239015482" Language="SFX">
+					<ShortName>snd_countdown_2.wav</ShortName>
+					<Path>SFX/snd_countdown_2_D79FB2B7.wem</Path>
+				</File>
+				<File Id="266895293" Language="SFX">
+					<ShortName>snd_reward_magnet.wav</ShortName>
+					<Path>SFX/snd_reward_magnet_D79FB2B7.wem</Path>
+				</File>
+				<File Id="284981740" Language="SFX">
+					<ShortName>snd_countdown_go.wav</ShortName>
+					<Path>SFX/snd_countdown_go_D79FB2B7.wem</Path>
+				</File>
+				<File Id="320257362" Language="SFX">
+					<ShortName>snd_action_slide_right.wav</ShortName>
+					<Path>SFX/snd_action_slide_right_D79FB2B7.wem</Path>
+				</File>
+				<File Id="343078218" Language="SFX">
+					<ShortName>snd_main_menu.wav</ShortName>
+					<Path>SFX/snd_main_menu_D79FB2B7.wem</Path>
+				</File>
+				<File Id="391635024" Language="SFX">
+					<ShortName>snd_button_run.wav</ShortName>
+					<Path>SFX/snd_button_run_D79FB2B7.wem</Path>
+				</File>
+				<File Id="453790600" Language="SFX">
+					<ShortName>snd_countdown_3.wav</ShortName>
+					<Path>SFX/snd_countdown_3_D79FB2B7.wem</Path>
+				</File>
+				<File Id="508550402" Language="SFX">
+					<ShortName>snd_button_mission.wav</ShortName>
+					<Path>SFX/snd_button_mission_D79FB2B7.wem</Path>
+				</File>
+				<File Id="512541661" Language="SFX">
+					<ShortName>snd_action_jump.wav</ShortName>
+					<Path>SFX/snd_action_jump_D79FB2B7.wem</Path>
+				</File>
+				<File Id="594280928" Language="SFX">
+					<ShortName>snd_button_settings.wav</ShortName>
+					<Path>SFX/snd_button_settings_D79FB2B7.wem</Path>
+				</File>
+				<File Id="634827947" Language="SFX">
+					<ShortName>snd_countdown_4.wav</ShortName>
+					<Path>SFX/snd_countdown_4_D79FB2B7.wem</Path>
+				</File>
+				<File Id="671350175" Language="SFX">
+					<ShortName>snd_reward_fish.wav</ShortName>
+					<Path>SFX/snd_reward_fish_D79FB2B7.wem</Path>
+				</File>
+				<File Id="673713943" Language="SFX">
+					<ShortName>snd_countdown_5.wav</ShortName>
+					<Path>SFX/snd_countdown_5_D79FB2B7.wem</Path>
+				</File>
+				<File Id="781292066" Language="SFX">
+					<ShortName>snd_countdown_1.wav</ShortName>
+					<Path>SFX/snd_countdown_1_D79FB2B7.wem</Path>
+				</File>
+				<File Id="784098698" Language="SFX">
+					<ShortName>snd_action_crash.wav</ShortName>
+					<Path>SFX/snd_action_crash_D79FB2B7.wem</Path>
+				</File>
+				<File Id="944626080" Language="SFX">
+					<ShortName>snd_action_slide_left.wav</ShortName>
+					<Path>SFX/snd_action_slide_left_D79FB2B7.wem</Path>
+				</File>
+				<File Id="951708316" Language="SFX">
+					<ShortName>snd_game_loaded.wav</ShortName>
+					<Path>SFX/snd_game_loaded_D79FB2B7.wem</Path>
+				</File>
+				<File Id="963699705" Language="SFX">
+					<ShortName>snd_countdown_start.wav</ShortName>
+					<Path>SFX/snd_countdown_start_D79FB2B7.wem</Path>
+				</File>
+				<File Id="1064710627" Language="SFX">
+					<ShortName>snd_game_over.wav</ShortName>
+					<Path>SFX/snd_game_over_D79FB2B7.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

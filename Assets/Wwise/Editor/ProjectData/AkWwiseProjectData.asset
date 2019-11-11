@@ -1,0 +1,361 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7f660a194ce54bc5bf4099bd28e8b84, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 90ec99e257e62549910570bdbbf47543
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 960121f2dc55e945bf22227b1a6ee45d
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  BankWwu:
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 8d3b8cee6d796b4e8d970b35db6b1387
+    GuidInternal: 
+    m_lastTime: -8586283643894775808
+    List:
+    - name: TrachCat_SoundBank
+      guid: ede9c9f75f9b3b418651e5299ab833e9
+      id: 2286824557
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: TrachCat_SoundBank
+        ObjectType: 7
+      Path: Default Work Unit/TrachCat_SoundBank
+  EventWwu:
+  - PhysicalPath: Events/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: a9f5f73649579742b9586f08e10b4393
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List:
+    - name: snd_action_crash
+      guid: 5b96ec5eb3cacf4c93fb225ee8b39085
+      id: 452534255
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_action_crash
+        ObjectType: 3
+      Path: Default Work Unit/snd_action_crash
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_action_jump
+      guid: d41202f9029ad445a29a2bc165db13c6
+      id: 3003982038
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_action_jump
+        ObjectType: 3
+      Path: Default Work Unit/snd_action_jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_action_slide
+      guid: c9bec3a236a4504fb5191ee6f2000439
+      id: 3147710037
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_action_slide
+        ObjectType: 3
+      Path: Default Work Unit/snd_action_slide
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_action_slide_left
+      guid: ca32beb6e2d8a64db3f5383e48726a07
+      id: 3098727147
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_action_slide_left
+        ObjectType: 3
+      Path: Default Work Unit/snd_action_slide_left
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_action_slide_right
+      guid: fa48fbb155348b449360b3547a27b732
+      id: 2411298406
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_action_slide_right
+        ObjectType: 3
+      Path: Default Work Unit/snd_action_slide_right
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_button_leaderboards
+      guid: b802d82e3780fe488873ca2e504fb4d4
+      id: 1653367152
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_button_leaderboards
+        ObjectType: 3
+      Path: Default Work Unit/snd_button_leaderboards
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_button_mission
+      guid: 61c6f9ec4305bd4582cb69e7b625bf24
+      id: 2024283294
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_button_mission
+        ObjectType: 3
+      Path: Default Work Unit/snd_button_mission
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_button_run
+      guid: 007f8e50b2a18c49b831b548621645da
+      id: 1578232995
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_button_run
+        ObjectType: 3
+      Path: Default Work Unit/snd_button_run
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_button_settings
+      guid: 703bb8dbe5ff5c40accd38556a7a1d08
+      id: 1493630459
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_button_settings
+        ObjectType: 3
+      Path: Default Work Unit/snd_button_settings
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_button_store
+      guid: 94ddd6c5a8fac44fb64987c5153230bb
+      id: 3443917247
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_button_store
+        ObjectType: 3
+      Path: Default Work Unit/snd_button_store
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_1
+      guid: 6fb2dd24f277c245822a76fe9b95131d
+      id: 3519106318
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_1
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_1
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_2
+      guid: 83e48348a2bc6e439a48aa55998bed1d
+      id: 3519106317
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_2
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_2
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_3
+      guid: 7828735edf089b45aff5bc1fbb63cf06
+      id: 3519106316
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_3
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_3
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_4
+      guid: 7e2d45c9967c024eaad2832d52e8772f
+      id: 3519106315
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_4
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_4
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_5
+      guid: d8e1861feda1bd448dd1a8267f1f649c
+      id: 3519106314
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_5
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_5
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_go
+      guid: f7e89ad376053c41aeb38a3bdc10230d
+      id: 2337063399
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_go
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_go
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_countdown_start
+      guid: 39d6d576010b394e937921feccc50ca5
+      id: 732372439
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_countdown_start
+        ObjectType: 3
+      Path: Default Work Unit/snd_countdown_start
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_game_loaded
+      guid: b9de5346f5a197418431b44af2f6d08b
+      id: 1361665793
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_game_loaded
+        ObjectType: 3
+      Path: Default Work Unit/snd_game_loaded
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_game_over
+      guid: a175b50a2122454d934cbf48852b642b
+      id: 395737464
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_game_over
+        ObjectType: 3
+      Path: Default Work Unit/snd_game_over
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_main_menu
+      guid: 7756f67ca11668499c573f31a67ca3cb
+      id: 3711655736
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_main_menu
+        ObjectType: 3
+      Path: Default Work Unit/snd_main_menu
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_reward_fish
+      guid: 89fc8f3247773a468749adce51648617
+      id: 2162734957
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_reward_fish
+        ObjectType: 3
+      Path: Default Work Unit/snd_reward_fish
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_reward_magnet
+      guid: b3290ddb7fa6914f8437af350637508c
+      id: 1226999857
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_reward_magnet
+        ObjectType: 3
+      Path: Default Work Unit/snd_reward_magnet
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: snd_reward_star
+      guid: 696dd07dd4756e488d6fbbc8ff0dc1ba
+      id: 2752070919
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: snd_reward_star
+        ObjectType: 3
+      Path: Default Work Unit/snd_reward_star
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: d55e1b423a743e45bb734c9209e643cb
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  StateWwu:
+  - PhysicalPath: States/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 339db78c9c44294d8d7c5703580c56ac
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: 800be58ec5be34449233f8cde4c657ee
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers/Default Work Unit.wwu
+    ParentPhysicalPath: 
+    guid: bb873c0b7005934383b0c3d63dd5825a
+    GuidInternal: 
+    m_lastTime: -8586283645084775808
+    List: []
+  ExpandedItems:
+  - /TrashCat_Wwise
+  - /TrashCat_Wwise/SoundBanks
+  - /TrashCat_Wwise/SoundBanks/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: 

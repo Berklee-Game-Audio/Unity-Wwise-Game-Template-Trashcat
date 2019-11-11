@@ -1,0 +1,50 @@
+Event	ID	Name			Wwise Object Path	Notes
+	395737464	snd_game_over			\Default Work Unit\snd_game_over	
+	452534255	snd_action_crash			\Default Work Unit\snd_action_crash	
+	732372439	snd_countdown_start			\Default Work Unit\snd_countdown_start	
+	1226999857	snd_reward_magnet			\Default Work Unit\snd_reward_magnet	
+	1361665793	snd_game_loaded			\Default Work Unit\snd_game_loaded	
+	1493630459	snd_button_settings			\Default Work Unit\snd_button_settings	
+	1578232995	snd_button_run			\Default Work Unit\snd_button_run	
+	1653367152	snd_button_leaderboards			\Default Work Unit\snd_button_leaderboards	
+	2024283294	snd_button_mission			\Default Work Unit\snd_button_mission	
+	2162734957	snd_reward_fish			\Default Work Unit\snd_reward_fish	
+	2337063399	snd_countdown_go			\Default Work Unit\snd_countdown_go	
+	2411298406	snd_action_slide_right			\Default Work Unit\snd_action_slide_right	
+	2752070919	snd_reward_star			\Default Work Unit\snd_reward_star	
+	3003982038	snd_action_jump			\Default Work Unit\snd_action_jump	
+	3098727147	snd_action_slide_left			\Default Work Unit\snd_action_slide_left	
+	3147710037	snd_action_slide			\Default Work Unit\snd_action_slide	
+	3443917247	snd_button_store			\Default Work Unit\snd_button_store	
+	3519106314	snd_countdown_5			\Default Work Unit\snd_countdown_5	
+	3519106315	snd_countdown_4			\Default Work Unit\snd_countdown_4	
+	3519106316	snd_countdown_3			\Default Work Unit\snd_countdown_3	
+	3519106317	snd_countdown_2			\Default Work Unit\snd_countdown_2	
+	3519106318	snd_countdown_1			\Default Work Unit\snd_countdown_1	
+	3711655736	snd_main_menu			\Default Work Unit\snd_main_menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	42887247	snd_button_store	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_button_store_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_button_store\snd_button_store		79048
+	51603243	snd_reward_star	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_reward_star_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_reward_star\snd_reward_star		126864
+	128295666	snd_button_leaderboards	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_button_leaderboards_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_button_leaderboards\snd_button_leaderboards		96564
+	167186016	snd_action_slide	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_action_slide_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_action_slide\snd_action_slide		74048
+	239015482	snd_countdown_2	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_2\snd_countdown_2		56550
+	266895293	snd_reward_magnet	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_reward_magnet_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_reward_magnet\snd_reward_magnet		81132
+	284981740	snd_countdown_go	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_go_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_go\snd_countdown_go		56366
+	320257362	snd_action_slide_right	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_action_slide_right_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_action_slide_right\snd_action_slide_right		107770
+	343078218	snd_main_menu	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_main_menu_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_main_menu\snd_main_menu		106078
+	391635024	snd_button_run	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_button_run_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_button_run\snd_button_run		114966
+	453790600	snd_countdown_3	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_3\snd_countdown_3		69934
+	508550402	snd_button_mission	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_button_mission_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_button_mission\snd_button_mission		96380
+	512541661	snd_action_jump	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_action_jump_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_action_jump\snd_action_jump		72140
+	594280928	snd_button_settings	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_button_settings_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_button_settings\snd_button_settings		103696
+	634827947	snd_countdown_4	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_4\snd_countdown_4		48134
+	671350175	snd_reward_fish	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_reward_fish_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_reward_fish\snd_reward_fish		86828
+	673713943	snd_countdown_5	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_5_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_5\snd_countdown_5		59952
+	781292066	snd_countdown_1	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_1\snd_countdown_1		69478
+	784098698	snd_action_crash	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_action_crash_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_action_crash\snd_action_crash		114844
+	944626080	snd_action_slide_left	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_action_slide_left_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_action_slide_left\snd_action_slide_left		100546
+	951708316	snd_game_loaded	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_game_loaded_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_game_loaded\snd_game_loaded		96562
+	963699705	snd_countdown_start	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_countdown_start_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_countdown_start\snd_countdown_start		79942
+	1064710627	snd_game_over	Y:\Documents\Berklee\Berklee Undergrad\Sem 8\VGS Assistant Job\TrashCat_Everything\TrashCat_Wwise\.cache\Windows\SFX\snd_game_over_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\snd_game_over\snd_game_over		119440
+

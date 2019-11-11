@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{34CCF4B9-BB83-42E2-8242-9197981F83B9}" SchemaVersion="94">
+	<InteractiveMusic>
+		<WorkUnit Name="Default Work Unit" ID="{34CCF4B9-BB83-42E2-8242-9197981F83B9}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="snd_action_slide_left" ID="{87D63CD8-E36F-4293-96A6-8D7613CE7C96}" ShortID="759815235">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_action_slide_left" ID="{9D45AEF8-5609-4CF1-9336-EA43D726318A}" ShortID="806296772">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_action_slide_left" ID="{205C4AD4-B01B-4A14-B1C7-3BAF488206CC}" ShortID="944626080">
+									<Language>SFX</Language>
+									<AudioFile>snd_action_slide_left.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C41A6812-8CCA-4EF7-A640-1065651CF693}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{511D0595-9BED-4AE7-BEC0-6CA9AB950FAF}">
+									<ClipList>
+										<MusicClip Name="snd_action_slide_left" ID="{65A7E2A5-5ED2-4EF8-94C0-56851AE02DA9}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1046.6875"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_action_slide_left" ID="{205C4AD4-B01B-4A14-B1C7-3BAF488206CC}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{6CFAB835-2C5A-47DB-B4E5-BFF647A84AA0}"/>
+						<MusicCue Name="Exit Cue" ID="{B40AEF3C-648D-4096-B436-238E633BE2AF}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1046.6875"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_action_slide_right" ID="{FCA118EC-5CB4-4714-A90B-F140E8EE556F}" ShortID="33895564">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_action_slide_right" ID="{93713C10-7AA6-4FF0-B678-9E9D3B998AE6}" ShortID="640756264">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_action_slide_right" ID="{EEAB0060-29ED-49D1-B567-2201475B9A8E}" ShortID="320257362">
+									<Language>SFX</Language>
+									<AudioFile>snd_action_slide_right.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{ACBF7317-2E10-43EA-9EBC-E384201BD08F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{D54515BF-7788-4539-9D2E-DF812DB25CF4}">
+									<ClipList>
+										<MusicClip Name="snd_action_slide_right" ID="{31F8BF66-3F87-4014-839E-AED115A64CBC}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1121.9375"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_action_slide_right" ID="{EEAB0060-29ED-49D1-B567-2201475B9A8E}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{F57A4039-0AD7-4631-9E3D-ABAE47F6DB5A}"/>
+						<MusicCue Name="Exit Cue" ID="{B92D9488-0AC8-43A2-802C-D98D92DFC235}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1121.9375"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_action_crash" ID="{5FCB7855-104B-4AB2-8A3A-CD90BEC97D0A}" ShortID="290942654">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_action_crash" ID="{8A15CD0E-3283-4155-8642-4B3B803235C7}" ShortID="714157663">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_action_crash" ID="{EF4EA146-8670-48FF-8918-2165E623BC80}" ShortID="784098698">
+									<Language>SFX</Language>
+									<AudioFile>snd_action_crash.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8E87E560-FC52-4C08-A661-B8A49395EE1A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{BD15C29C-B8AD-4669-BFA0-ADD69615FC86}">
+									<ClipList>
+										<MusicClip Name="snd_action_crash" ID="{AF7D5C8D-F487-480F-B688-591EBED150DB}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1195.625"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_action_crash" ID="{EF4EA146-8670-48FF-8918-2165E623BC80}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{CA8BD4E8-F573-44C6-860A-4A2E84BBB455}"/>
+						<MusicCue Name="Exit Cue" ID="{E5B27D6B-D759-4B3B-924C-ECD16691DD90}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1195.625"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_action_jump" ID="{6A782B4B-B7D6-47CD-A6E4-550E952CB66C}" ShortID="1068889169">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_action_jump" ID="{D6780F0E-13FF-421E-983D-882FA959AC22}" ShortID="774696810">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_action_jump" ID="{AAB3610A-7413-4452-B4A0-2B339ED85FA8}" ShortID="512541661">
+									<Language>SFX</Language>
+									<AudioFile>snd_action_jump.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7438F5C7-05EE-4D18-B824-654290689044}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{C36EEC97-FA78-4823-8E91-2235F61009E2}">
+									<ClipList>
+										<MusicClip Name="snd_action_jump" ID="{A458C36B-B266-4786-8093-AAC70930860E}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="750.791666666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_action_jump" ID="{AAB3610A-7413-4452-B4A0-2B339ED85FA8}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{B90048C8-7571-4EC5-8049-37EAD4E3A3FD}"/>
+						<MusicCue Name="Exit Cue" ID="{45F158A5-5E4E-4F5F-B41B-7AF3A1762979}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_action_slide" ID="{7FA1A572-577A-4267-8B6A-0D70705B9BA4}" ShortID="1057718423">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_action_slide" ID="{C76D2E52-F8C0-40AE-AB97-40BF011A53A1}" ShortID="319943694">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_action_slide" ID="{53BCFF16-02DF-40CA-80CF-AC6329CC0E52}" ShortID="167186016">
+									<Language>SFX</Language>
+									<AudioFile>snd_action_slide.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{84B613DC-5215-410B-86A1-AE63434F5D0F}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{28C5A138-079D-42E2-9C3A-5EC6A56D444D}">
+									<ClipList>
+										<MusicClip Name="snd_action_slide" ID="{F1155BDA-742E-408D-B624-13DC4C730CE7}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="770.666666666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_action_slide" ID="{53BCFF16-02DF-40CA-80CF-AC6329CC0E52}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{98B8419A-CECB-46C0-AFA5-A055A0A68AFD}"/>
+						<MusicCue Name="Exit Cue" ID="{717C7636-4094-46FA-9AC4-EE71519067C0}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_button_leaderboards" ID="{C12AE72D-2B25-4F6A-B93C-AF88A5E85C32}" ShortID="450140461">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_button_leaderboards" ID="{2F3A9A82-DDCE-4C4D-956D-84CA256C751C}" ShortID="748986377">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_button_leaderboards" ID="{95C6F015-2288-4BAB-9F37-AB8524ED6469}" ShortID="128295666">
+									<Language>SFX</Language>
+									<AudioFile>snd_button_leaderboards.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{803D6BC5-2847-4D04-B8D9-297C38FB42BE}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{8C90CC23-C58F-4210-AA5B-23FFE29E0AA4}">
+									<ClipList>
+										<MusicClip Name="snd_button_leaderboards" ID="{A7AEB3FD-9163-4A70-9BAD-3EF3C0C50457}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1005.20833333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_button_leaderboards" ID="{95C6F015-2288-4BAB-9F37-AB8524ED6469}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{221C247B-AFB3-4CF0-A77F-8255EE30CB53}"/>
+						<MusicCue Name="Exit Cue" ID="{16FC9A77-D557-4EF6-B87B-8EBFCEC20679}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1005.20833333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_button_mission" ID="{CA241A46-852E-4C5E-9EA4-437AEDFF1A13}" ShortID="1061987956">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_button_mission" ID="{2EE00686-978E-4452-93EB-F85AFCF1B403}" ShortID="241898019">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_button_mission" ID="{01155335-F378-4A6A-8EDD-B6868E321942}" ShortID="508550402">
+									<Language>SFX</Language>
+									<AudioFile>snd_button_mission.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E1DBFDE2-74FC-4AB3-AD50-7BBB8557FA17}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{7E56C122-1040-43BB-8432-1C71185AD6D7}">
+									<ClipList>
+										<MusicClip Name="snd_button_mission" ID="{2994268F-F930-4C93-A7F5-8CA451B0D8F0}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1003.29166666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_button_mission" ID="{01155335-F378-4A6A-8EDD-B6868E321942}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{F05BAA53-3BE6-4AC2-A4C7-220449C95540}"/>
+						<MusicCue Name="Exit Cue" ID="{FA57BA76-66E0-4DC9-870B-293D5B847A02}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1003.29166666667"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_button_run" ID="{01EA0E93-FDB3-4F57-AA13-D777F39A6EC8}" ShortID="191439105">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_button_run" ID="{802AD139-593A-49E2-A489-4C80359A14F4}" ShortID="669277648">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_button_run" ID="{14578DF9-E8B4-4730-AED9-046DC87E5AC0}" ShortID="391635024">
+									<Language>SFX</Language>
+									<AudioFile>snd_button_run.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C741490A-CEA7-40F0-AB3B-637C4BD1F831}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{9913B23C-0017-4679-863B-95A431ED4DCE}">
+									<ClipList>
+										<MusicClip Name="snd_button_run" ID="{7458E0A3-5C06-4DA4-BC9D-AC289C94E894}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1196.89583333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_button_run" ID="{14578DF9-E8B4-4730-AED9-046DC87E5AC0}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{23F99AC6-B7AC-4BC6-A961-6B18BFC05608}"/>
+						<MusicCue Name="Exit Cue" ID="{75955720-77B4-4239-BD8A-E0DA16018D32}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1196.89583333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_button_settings" ID="{8204504F-1593-4C3E-ABC2-68FFD23BB388}" ShortID="63363203">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_button_settings" ID="{2BB544C7-C531-47C5-BEC0-0A2B3779817B}" ShortID="389681869">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_button_settings" ID="{53D7761C-D921-49EA-8A01-4FE7556CBAD8}" ShortID="594280928">
+									<Language>SFX</Language>
+									<AudioFile>snd_button_settings.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{81BA9C31-621D-4BAC-9885-83AE85684468}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{AD7E6F73-64B0-4EF6-9763-967EE307350F}">
+									<ClipList>
+										<MusicClip Name="snd_button_settings" ID="{551E4FC9-D751-402E-AF8F-EF87795515EB}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1079.5"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_button_settings" ID="{53D7761C-D921-49EA-8A01-4FE7556CBAD8}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{117A4E27-1FC1-4D19-946F-23DE92934533}"/>
+						<MusicCue Name="Exit Cue" ID="{5C55CBF9-700D-4884-A9EB-63F844D2DFF1}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1079.5"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_button_store" ID="{D16856F0-A1D3-44EE-BAED-232964917FD2}" ShortID="954544842">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_button_store" ID="{8BF156EC-E94B-4B50-BD56-82FFDFA43777}" ShortID="443475397">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_button_store" ID="{093B6D0C-D31B-4759-9F19-F7C8FB375361}" ShortID="42887247">
+									<Language>SFX</Language>
+									<AudioFile>snd_button_store.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7D4E07A4-2508-49FA-A2B9-5F102D907862}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{17FE39D1-DF6F-40E1-9987-322C2C1839B7}">
+									<ClipList>
+										<MusicClip Name="snd_button_store" ID="{4825263C-4291-40EC-930C-9D612A5CB7C7}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="822.75"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_button_store" ID="{093B6D0C-D31B-4759-9F19-F7C8FB375361}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{5C490CB0-3FCB-48E9-AFDA-768A131C1924}"/>
+						<MusicCue Name="Exit Cue" ID="{1EC088DB-4487-4205-89C3-3C15835EF0DF}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_1" ID="{B47D8F73-C43E-41AA-8969-30311BF880C6}" ShortID="1024468293">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_1" ID="{C945553A-4AD6-4DAE-BDF2-05FA2F371373}" ShortID="162738012">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_1" ID="{ED0AD160-C44F-473C-B6D0-162DA52B1A04}" ShortID="781292066">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_1.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CFBF6AE3-1C09-48F2-90D1-6685F9BCCFBB}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{B6583A5D-8D98-4E49-BCB8-AECA987C7D51}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_1" ID="{7E2F0274-6605-4AF0-B905-A142E31A24C2}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="723.0625"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_1" ID="{ED0AD160-C44F-473C-B6D0-162DA52B1A04}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{9E05A9DE-75F2-4941-9E37-1ED3D0353399}"/>
+						<MusicCue Name="Exit Cue" ID="{6CCDD5C2-F6FF-40B7-8D65-DB698EDA1739}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_2" ID="{0F28A04A-3E70-4462-B63D-A51B0B774853}" ShortID="422112351">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_2" ID="{40D73334-5CB9-49D7-B3B5-E8BE9674ACBC}" ShortID="770441621">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_2" ID="{DF322565-149A-4DC4-93A1-B36B9C2A049F}" ShortID="239015482">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_2.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{A7235578-E918-4D4D-9A35-626BE77ABC53}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{A6118D3C-886D-416D-B5B0-055755F3F093}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_2" ID="{26A99B0D-DADB-469B-94F3-B3A12CA03E40}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="588.395833333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_2" ID="{DF322565-149A-4DC4-93A1-B36B9C2A049F}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{1C48212E-3A30-4DD2-A07E-C9ECC0AD375D}"/>
+						<MusicCue Name="Exit Cue" ID="{A220AA0F-6D7B-45F0-A65A-2F77BC146EAA}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_3" ID="{F4CFCB70-E5BE-4313-B548-5B8E33F629D8}" ShortID="412901474">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_3" ID="{5E588D3E-7F62-4719-916A-E69F9918510F}" ShortID="465358247">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_3" ID="{2C5B4235-2EA4-42A4-A313-5B16496ABE0B}" ShortID="453790600">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_3.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{7D21E3FC-CAEF-4631-AFF4-EC895165E2CA}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{DBE5B2A4-EC9E-46A7-BCA0-460E0AA6EFFD}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_3" ID="{2323FBEB-D0E1-4A00-97BA-224D0E96E8BA}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="727.8125"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_3" ID="{2C5B4235-2EA4-42A4-A313-5B16496ABE0B}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{45ECBC72-1040-4007-BE60-5791D10243CE}"/>
+						<MusicCue Name="Exit Cue" ID="{88CC82E6-BAF0-4D67-8F86-9D8A962617C8}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_4" ID="{FB2E83DC-1B51-43CD-AA14-8170EF133063}" ShortID="470466671">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_4" ID="{0DFB8B7F-E432-4C58-945D-8FF1B973805C}" ShortID="209705274">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_4" ID="{BBEDE89E-7690-4A2C-83B9-42F9662000EA}" ShortID="634827947">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_4.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F32795BF-169B-4319-9FEA-42C750FCEE38}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{494A3A90-F604-4D3E-AD89-383B06EBE0FE}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_4" ID="{03CCB009-941D-49D4-8772-39805DE4CA23}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="500.729166666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_4" ID="{BBEDE89E-7690-4A2C-83B9-42F9662000EA}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{D40C2051-8471-4FBA-AB6B-6A21FD2A7F57}"/>
+						<MusicCue Name="Exit Cue" ID="{9F5D5D9F-39A1-4284-B70D-BA1EA9374D41}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_5" ID="{C1B00B45-31B0-4038-9D0A-334441A9456C}" ShortID="817283309">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_5" ID="{D90D8B29-5310-4FC4-897C-B9C35174100E}" ShortID="983078837">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_5" ID="{0ED8DCD6-9E90-4352-8EC0-1F7442ACF672}" ShortID="673713943">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_5.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{C3C8F927-5DA3-4F14-A75B-2EC5AEB75797}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{1BA2F268-034B-491C-8DD1-D80E4CFACC45}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_5" ID="{A66F5966-9282-4767-907A-E33EE1A1EAA6}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="623.833333333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_5" ID="{0ED8DCD6-9E90-4352-8EC0-1F7442ACF672}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{6300BADC-601E-4828-B400-E7F6E8195B86}"/>
+						<MusicCue Name="Exit Cue" ID="{6154F0E9-F7BA-4B87-844C-EB01E46D57A7}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_go" ID="{D9D0CCCC-D741-43CA-8003-12220C51FA03}" ShortID="902939943">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_go" ID="{95667047-ACA8-491B-AC5B-A848D2A87E5F}" ShortID="332116665">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_go" ID="{B6A65B24-A26E-4278-954E-44478F627716}" ShortID="284981740">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_go.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{1D60F441-DA03-43F4-A63C-226F88653C34}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{51264816-43CB-44C3-BF36-1A4582F936C8}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_go" ID="{29A4B01C-4523-426C-BCE9-8EB366EABFFF}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="586.479166666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_go" ID="{B6A65B24-A26E-4278-954E-44478F627716}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{41F9847A-0165-4A8D-B32D-D6F30AEFE8A1}"/>
+						<MusicCue Name="Exit Cue" ID="{D27DF41C-BBC5-480B-BB77-B656434ABB37}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_countdown_start" ID="{BFA8E8F6-36E3-41C1-9FA6-723E1C02E873}" ShortID="356272093">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_countdown_start" ID="{669513F7-8F57-45B4-BB1A-AEC270688F24}" ShortID="590210642">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_countdown_start" ID="{BFC4B9F5-2EA4-4DEB-962F-E9DC1712F073}" ShortID="963699705">
+									<Language>SFX</Language>
+									<AudioFile>snd_countdown_start.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{999DBF5B-D56A-49E2-8B24-6EC48A8DE9ED}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{5FAB2884-06F0-4890-8159-F2984C668C5C}">
+									<ClipList>
+										<MusicClip Name="snd_countdown_start" ID="{7D17BB86-2AD0-4008-997F-A73E092C3440}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="832.0625"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_countdown_start" ID="{BFC4B9F5-2EA4-4DEB-962F-E9DC1712F073}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{59B62AFB-7C80-4025-B339-F5B8A892A15D}"/>
+						<MusicCue Name="Exit Cue" ID="{82B6E6AE-068C-4317-A075-4E7CBC287396}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_game_loaded" ID="{F55FE94E-3841-479F-897D-4E6F64B80487}" ShortID="82664553">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_game_loaded" ID="{A01370F9-3E46-48A0-9997-5B74E9E9F86D}" ShortID="929066312">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_game_loaded" ID="{B5B11F22-3C6C-4B59-A28A-0AA6BC6468D0}" ShortID="951708316">
+									<Language>SFX</Language>
+									<AudioFile>snd_game_loaded.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{F0FCC938-A487-4DF2-BD9A-33594EC902D1}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{0585DEBB-973C-41BE-B84F-E066CFB7C7F9}">
+									<ClipList>
+										<MusicClip Name="snd_game_loaded" ID="{E9B1DAAF-8EE2-4C89-B68B-CD6B53030A24}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1005.1875"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_game_loaded" ID="{B5B11F22-3C6C-4B59-A28A-0AA6BC6468D0}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{D1DA30BB-B140-4D70-9CEC-BA7CF205AB41}"/>
+						<MusicCue Name="Exit Cue" ID="{3E1BA636-E937-4D31-AE77-9268B79740B6}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1005.1875"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_game_over" ID="{C46DFF8F-E1F8-4F98-B1B5-4392A6A9BE7D}" ShortID="667346257">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_game_over" ID="{27982FBF-61E5-4C3B-A379-DB0C7F90CDCC}" ShortID="1031835834">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_game_over" ID="{C3231707-8035-4AD7-885D-B39ECAB18869}" ShortID="1064710627">
+									<Language>SFX</Language>
+									<AudioFile>snd_game_over.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{2C257383-BB98-4DFC-ABAB-CC9902061A48}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{37787FBC-6E93-4651-9370-D081B5F8E2AC}">
+									<ClipList>
+										<MusicClip Name="snd_game_over" ID="{385FFED6-3DDC-4831-88CB-21FCC5469586}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1243.5"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_game_over" ID="{C3231707-8035-4AD7-885D-B39ECAB18869}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{109E68D8-60BB-4CC0-9B28-A72EB822AD24}"/>
+						<MusicCue Name="Exit Cue" ID="{DBF94FE9-C77B-4F0D-9DEB-847B895AAAD4}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1243.5"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_main_menu" ID="{14531A33-1879-412D-8DE2-9DAC8D91132D}" ShortID="141555391">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_main_menu" ID="{236042ED-276D-4D68-B647-97082E582C9B}" ShortID="542773483">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_main_menu" ID="{68EC0246-4025-4907-BB81-9E39E9DCF494}" ShortID="343078218">
+									<Language>SFX</Language>
+									<AudioFile>snd_main_menu.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8C3CE7FF-DE58-4091-A943-9A23F57E5EEF}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{5F015099-EFC4-4808-A0FB-DD477A572214}">
+									<ClipList>
+										<MusicClip Name="snd_main_menu" ID="{8BC537B3-94BF-4782-B1AD-FCEAC32D49F6}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1104.3125"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_main_menu" ID="{68EC0246-4025-4907-BB81-9E39E9DCF494}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{4ED28B58-5C17-4707-BFAC-E16DF87BAFAE}"/>
+						<MusicCue Name="Exit Cue" ID="{4BE13BDC-5965-48CE-A757-548F31B1F53D}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1104.3125"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_reward_fish" ID="{3F80463C-B488-4606-BD1A-04B6EAC1DE2C}" ShortID="505353363">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_reward_fish" ID="{71B1A6F5-BD6A-4F71-80C4-545AD5059883}" ShortID="872866075">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_reward_fish" ID="{601208CA-FFC1-44C8-A7E2-3C5AAAA553B3}" ShortID="671350175">
+									<Language>SFX</Language>
+									<AudioFile>snd_reward_fish.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{8C19F73E-9CE9-4D57-B83B-ACA247ACB64C}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{FC643C78-E134-4119-8F87-E12545DB83B7}">
+									<ClipList>
+										<MusicClip Name="snd_reward_fish" ID="{805855FD-1D33-4CB5-AC62-5A77B2019508}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="903.791666666667"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_reward_fish" ID="{601208CA-FFC1-44C8-A7E2-3C5AAAA553B3}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{1B06A6F2-32EE-4876-A9B4-10B0C28E6047}"/>
+						<MusicCue Name="Exit Cue" ID="{8B4A97AE-29EE-49C3-8844-61D48427B883}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_reward_magnet" ID="{5967DC0E-3BB1-45C0-9DB6-0FC66DB18FF7}" ShortID="682421299">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_reward_magnet" ID="{285436EF-DA34-4F9E-BA7A-BEFAA43F6872}" ShortID="468826342">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_reward_magnet" ID="{4209EAE8-33F2-4F9C-B800-1615BA2FEA68}" ShortID="266895293">
+									<Language>SFX</Language>
+									<AudioFile>snd_reward_magnet.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E9B1C465-48B0-4405-8CCC-004DAFC64847}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{835AEAF0-EE34-4E34-9D65-BBFAF9C1661C}">
+									<ClipList>
+										<MusicClip Name="snd_reward_magnet" ID="{0068E441-C342-4FED-8CDF-1000006FB814}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="844.458333333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_reward_magnet" ID="{4209EAE8-33F2-4F9C-B800-1615BA2FEA68}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{3F5625FB-C60E-428E-B3FD-C9720AE31D3E}"/>
+						<MusicCue Name="Exit Cue" ID="{E7CA483D-4EAE-4476-9DEA-9010521A3B2B}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1000"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+				<MusicSegment Name="snd_reward_star" ID="{B3086318-1E4A-477C-ACAA-54589B844F84}" ShortID="988593380">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FA1B9DDA-492A-464F-A2FF-0C0122340DCF}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="snd_reward_star" ID="{A6635EF6-7C7F-4CFD-84D6-2B6D6272718D}" ShortID="154703680">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F2210196-55DC-45E9-BF22-227B1A6EE45D}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="snd_reward_star" ID="{B503C2D5-81E1-497C-87EF-75A857933009}" ShortID="51603243">
+									<Language>SFX</Language>
+									<AudioFile>snd_reward_star.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{E69E869C-3044-4C0F-877C-6EF667C410C6}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<SequenceList>
+								<MusicTrackSequence Name="" ID="{E317370D-AB07-44EE-81DA-44EF498FD183}">
+									<ClipList>
+										<MusicClip Name="snd_reward_star" ID="{F0EBDEEE-1001-4380-8AAE-093DDBF287E2}">
+											<PropertyList>
+												<Property Name="EndTrimOffset" Type="Real64" Value="1320.83333333333"/>
+												<Property Name="FadeInMode" Type="int16" Value="0"/>
+												<Property Name="FadeOutMode" Type="int16" Value="0"/>
+											</PropertyList>
+											<AudioSourceRef Name="snd_reward_star" ID="{B503C2D5-81E1-497C-87EF-75A857933009}"/>
+										</MusicClip>
+									</ClipList>
+								</MusicTrackSequence>
+							</SequenceList>
+						</MusicTrack>
+					</ChildrenList>
+					<CueList>
+						<MusicCue Name="Entry Cue" ID="{F5EFB1A0-04EC-4C64-AD91-D086BBE176A2}"/>
+						<MusicCue Name="Exit Cue" ID="{F03C91F1-5CE1-41C6-B1F5-25073CC8E50F}">
+							<PropertyList>
+								<Property Name="CueType" Type="int16" Value="1"/>
+								<Property Name="TimeMs" Type="Real64" Value="1320.83333333333"/>
+							</PropertyList>
+						</MusicCue>
+					</CueList>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
+	</InteractiveMusic>
+</WwiseDocument>

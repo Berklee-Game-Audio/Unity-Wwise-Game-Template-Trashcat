@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{EE8C3B8D-796D-4E6B-8D97-0B35DB6B1387}" SchemaVersion="94">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{EE8C3B8D-796D-4E6B-8D97-0B35DB6B1387}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="TrachCat_SoundBank" ID="{F7C9E9ED-9B5F-413B-8651-E5299AB833E9}">
+					<ObjectInclusionList>
+						<ObjectRef Name="snd_button_settings" ID="{DBB83B70-FFE5-405C-ACCD-38556A7A1D08}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_go" ID="{D39AE8F7-0576-413C-AEB3-8A3BDC10230D}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_game_loaded" ID="{4653DEB9-A1F5-4197-8431-B44AF2F6D08B}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_2" ID="{4883E483-BCA2-436E-9A48-AA55998BED1D}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_action_slide_right" ID="{B1FB48FA-3455-448B-9360-B3547A27B732}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_5" ID="{1F86E1D8-A1ED-44BD-8DD1-A8267F1F649C}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_3" ID="{5E732878-08DF-459B-AFF5-BC1FBB63CF06}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_button_mission" ID="{ECF9C661-0543-45BD-82CB-69E7B625BF24}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_1" ID="{24DDB26F-77F2-45C2-822A-76FE9B95131D}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_action_jump" ID="{F90212D4-9A02-45D4-A29A-2BC165DB13C6}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_reward_fish" ID="{328FFC89-7747-463A-8749-ADCE51648617}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_reward_star" ID="{7DD06D69-75D4-486E-8D6F-BBC8FF0DC1BA}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_button_leaderboards" ID="{2ED802B8-8037-48FE-8873-CA2E504FB4D4}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_main_menu" ID="{7CF65677-16A1-4968-9C57-3F31A67CA3CB}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_button_run" ID="{508E7F00-A1B2-498C-B831-B548621645DA}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_action_crash" ID="{5EEC965B-CAB3-4CCF-93FB-225EE8B39085}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_game_over" ID="{0AB575A1-2221-4D45-934C-BF48852B642B}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_action_slide_left" ID="{B6BE32CA-D8E2-4DA6-B3F5-383E48726A07}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_4" ID="{C9452D7E-7C96-4E02-AAD2-832D52E8772F}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_countdown_start" ID="{76D5D639-0B01-4E39-9379-21FECCC50CA5}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_action_slide" ID="{A2C3BEC9-A436-4F50-B519-1EE6F2000439}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_reward_magnet" ID="{DB0D29B3-A67F-4F91-8437-AF350637508C}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="snd_button_store" ID="{C5D6DD94-FAA8-4FC4-B649-87C5153230BB}" WorkUnitID="{36F7F5A9-5749-4297-B958-6F08E10B4393}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
