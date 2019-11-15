@@ -12,6 +12,8 @@ public class CharacterCollider : MonoBehaviour
 	static int s_HitHash = Animator.StringToHash("Hit");
     static int s_BlinkingValueHash;
 
+
+
     // Used mainly by by analytics, but not in an analytics ifdef block 
     // so that the data is available to anything (e.g. could be used for player stat saved locally etc.)
 	public struct DeathEvent
@@ -32,6 +34,7 @@ public class CharacterCollider : MonoBehaviour
 	[Header("Sound")]
 	public AudioClip coinSound;
 	public AudioClip premiumSound;
+    private GameObject WwiseGlobal;
 
     public DeathEvent deathData { get { return m_DeathData; } }
     public new BoxCollider collider { get { return m_Collider; } }
@@ -62,7 +65,8 @@ public class CharacterCollider : MonoBehaviour
 		m_Collider = GetComponent<BoxCollider>();
 		m_Audio = GetComponent<AudioSource>();
 		m_StartingColliderHeight = m_Collider.bounds.size.y;
-	}
+        WwiseGlobal = GameObject.Find("WwiseGlobal");
+    }
 
 	public void Init()
 	{
@@ -115,6 +119,7 @@ public class CharacterCollider : MonoBehaviour
                 PlayerData.instance.coins += 1;
 				controller.coins += 1;
 				m_Audio.PlayOneShot(coinSound);
+                AkSoundEngine.PostEvent("snd_reward_fish", WwiseGlobal);
             }
         }
         else if(c.gameObject.layer == k_ObstacleLayerIndex)
@@ -143,14 +148,15 @@ public class CharacterCollider : MonoBehaviour
 			if (controller.currentLife > 0)
 			{
 				m_Audio.PlayOneShot(controller.character.hitSound);
+                AkSoundEngine.PostEvent("snd_action_crash", WwiseGlobal);
                 SetInvincible ();
 			}
             // The collision killed the player, record all data to analytics.
 			else
 			{
 				m_Audio.PlayOneShot(controller.character.deathSound);
-
-				m_DeathData.character = controller.character.characterName;
+                AkSoundEngine.PostEvent("snd_game_over", WwiseGlobal);
+                m_DeathData.character = controller.character.characterName;
 				m_DeathData.themeUsed = controller.trackManager.currentTheme.themeName;
 				m_DeathData.obstacleType = ob.GetType().ToString();
 				m_DeathData.coins = controller.coins;

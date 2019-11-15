@@ -311,7 +311,9 @@ public class CharacterInputController : MonoBehaviour
             character.animator.SetFloat(s_JumpingSpeedHash, animSpeed);
             character.animator.SetBool(s_JumpingHash, true);
 			m_Audio.PlayOneShot(character.jumpSound);
-			m_Jumping = true;
+            AkSoundEngine.PostEvent("snd_action_jump", WwiseGlobal);
+
+            m_Jumping = true;
         }
     }
 
@@ -384,8 +386,10 @@ public class CharacterInputController : MonoBehaviour
     public void UseConsumable(Consumable c)
     {
 		characterCollider.audio.PlayOneShot(powerUpUseSound);
+        AkSoundEngine.PostEvent("snd_reward_magnet", WwiseGlobal);
 
-        for(int i = 0; i < m_ActiveConsumables.Count; ++i)
+
+        for (int i = 0; i < m_ActiveConsumables.Count; ++i)
         {
             if(m_ActiveConsumables[i].GetType() == c.GetType())
             {
