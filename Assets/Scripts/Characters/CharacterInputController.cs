@@ -40,6 +40,7 @@ public class CharacterInputController : MonoBehaviour
 	public AudioClip slideSound;
 	public AudioClip powerUpUseSound;
 	public AudioSource powerupSource;
+    private GameObject WwiseGlobal;
 
     protected int m_Coins;
     protected int m_Premium;
@@ -70,6 +71,8 @@ public class CharacterInputController : MonoBehaviour
     protected const float k_ShadowGroundOffset = 0.01f;
     protected const float k_TrackSpeedToJumpAnimSpeedRatio = 0.6f;
     protected const float k_TrackSpeedToSlideAnimSpeedRatio = 0.9f;
+
+    
 
     protected void Awake ()
     {
@@ -108,6 +111,10 @@ public class CharacterInputController : MonoBehaviour
 		m_Audio = GetComponent<AudioSource>();
 
 		m_ObstacleLayer = 1 << LayerMask.NameToLayer("Obstacle");
+
+        WwiseGlobal = GameObject.Find("WwiseGlobal");
+
+
     }
 
 	// Called at the beginning of a run or rerun
@@ -332,7 +339,8 @@ public class CharacterInputController : MonoBehaviour
 			character.animator.SetFloat(s_JumpingSpeedHash, animSpeed);
 			character.animator.SetBool(s_SlidingHash, true);
 			m_Audio.PlayOneShot(slideSound);
-			m_Sliding = true;
+            AkSoundEngine.PostEvent("snd_action_slide", WwiseGlobal);
+            m_Sliding = true;
 
 			characterCollider.Slide(true);
 		}
